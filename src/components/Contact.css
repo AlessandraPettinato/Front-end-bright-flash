@@ -2,229 +2,230 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
 .contact-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-left: 80px;
-  margin-right: 80px;
-  margin-top: 60px;
-  margin-bottom: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 80px;
+	margin-right: 80px;
+	margin-top: 60px;
+	margin-bottom: 60px;
 }
 .image-container {
-  display: flex;
-  justify-self: center;
+	display: flex;
+	justify-self: center;
 }
 
 .contact-image {
-  justify-content: center;
-  width: 80%;
+	justify-content: center;
+	width: 80%;
 }
 
 .form-page {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
 }
 
 .contact-us {
-  justify-content: center;
-  align-self: center;
-  height: auto;
-  padding: 18px;
-  font-size: 2.5rem;
-  align-self: center;
-  justify-self: center;
-  text-align: center;
-  text-transform: uppercase;
-  font-family: Oswald;
-  font-weight: bolder;
-  text-shadow: -4px 0 #eedf5b;
-  color: #b95c77;
-  padding: 1rem;
-  white-space: nowrap;
+	justify-content: center;
+	align-self: center;
+	height: auto;
+	padding: 18px;
+	font-size: 2.5rem;
+	align-self: center;
+	justify-self: center;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: Oswald;
+	font-weight: bolder;
+	text-shadow: -4px 0 #eedf5b;
+	color: #b95c77;
+	padding: 1rem;
+	white-space: nowrap;
 }
 
 .contact-text {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 1rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 1rem;
 }
 
 .form-control,
 .form-container {
-  display: flex;
-  justify-self: center;
+	display: flex;
+	justify-self: center;
 }
 
 .input-form {
-  display: flex;
-  justify-content: center;
-  padding: 16px;
-  font-size: 1rem;
+	display: flex;
+	justify-content: center;
+	padding: 16px;
+	font-size: 1rem;
 }
 input {
-  display: flex;
-  justify-content: center;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  justify-items: center;
-  padding: 16px;
-  font-size: 1rem;
-  text-align: left;
-  width: 300px;
-  height: 1em;
-  border-radius: 0.8rem;
+	display: flex;
+	justify-content: center;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+		Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+	justify-items: center;
+	padding: 16px;
+	font-size: 1rem;
+	text-align: left;
+	width: 300px;
+	height: 1em;
+	border-radius: 0.8rem;
 }
 textarea {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  width: 300px;
-  font-size: medium;
-  text-align: left;
-  padding: 15px;
-  border-radius: 0.8rem;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+		Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+	width: 300px;
+	font-size: medium;
+	text-align: left;
+	padding: 15px;
+	border-radius: 0.8rem;
 }
 
 #name,
 #email {
-  border-radius: 0.8rem;
-  width: 320px;
-  height: 50px;
-  border: none;
-  box-shadow: 0px 8px 15px rgb(0 0 0 / 10%);
-  justify-self: center;
+	border-radius: 0.8rem;
+	width: 320px;
+	height: 50px;
+	border: none;
+	box-shadow: 0px 8px 15px rgb(0 0 0 / 10%);
+	justify-self: center;
 }
 
 #message {
-  border-radius: 0.8rem;
-  width: 320px;
-  height: 120px;
-  border: none;
-  box-shadow: 0px 8px 15px rgb(0 0 0 / 10%);
-  justify-self: center;
+	border-radius: 0.8rem;
+	width: 320px;
+	height: 120px;
+	border: none;
+	box-shadow: 0px 8px 15px rgb(0 0 0 / 10%);
+	justify-self: center;
 }
 
 .button-contact {
-  border-radius: 2rem;
-  width: 150px;
-  height: 35px;
-  background-color: #efedea;
-  text-align: center;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  text-transform: uppercase;
-  font-weight: 400;
-  border: none;
-  box-shadow: 0px 8px 15px rgb(0 0 0 / 10%);
-  transition: all 0.3s ease 0s;
-  cursor: pointer;
-  align-items: center;
-  display: flex;
-  justify-self: center;
-  justify-content: center;
-  padding: 2px;
+	border-radius: 2rem;
+	width: 150px;
+	height: 35px;
+	background-color: #efedea;
+	text-align: center;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+		Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+	text-transform: uppercase;
+	font-weight: 400;
+	border: none;
+	box-shadow: 0px 8px 15px rgb(0 0 0 / 10%);
+	transition: all 0.3s ease 0s;
+	cursor: pointer;
+	align-items: center;
+	display: flex;
+	justify-self: center;
+	justify-content: center;
+	padding: 2px;
 }
 .button-contact:hover {
-  background-color: #eedf5b;
-  box-shadow: 0px 15px 20px rgba(238, 233, 91, 0.4);
-  color: white;
-  transform: translateY(-7px);
+	background-color: #eedf5b;
+	box-shadow: 0px 15px 20px rgba(238, 233, 91, 0.4);
+	color: white;
+	transform: translateY(-7px);
 }
 
 @media screen and (max-width: 600px) {
-  .contact-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 0px;
-  }
+	.contact-container {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin: 0px;
+	}
 
-  .form-page {
-    justify-content: center;
-    align-items: center;
-  }
+	.form-page {
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 3rem;
+	}
 
-  .image-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+	.image-container {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
 
-  .contact-image {
-    width: 100%;
-    height: auto;
-  }
+	.contact-image {
+		width: 100%;
+		height: auto;
+	}
 
-  .text-container {
-    display: flex;
-    padding: 0px 30px 0px 30px;
-    text-align: center;
-  }
+	.text-container {
+		display: flex;
+		padding: 0px 30px 0px 30px;
+		text-align: center;
+	}
 
-  .contact-us-call {
-    font-size: 17px;
-  }
+	.contact-us-call {
+		font-size: 17px;
+	}
 
-  .contact-us {
-    width: 70%;
-    height: auto;
-    font-size: 2.5rem;
-    align-self: center;
-    justify-self: center;
-    text-align: center;
-    text-transform: uppercase;
-    font-family: Oswald;
-    font-weight: bolder;
-    text-shadow: -4px 0 #eedf5b;
-    color: #b95c77;
-    padding: 1rem;
-  }
+	.contact-us {
+		width: 70%;
+		height: auto;
+		font-size: 2.5rem;
+		align-self: center;
+		justify-self: center;
+		text-align: center;
+		text-transform: uppercase;
+		font-family: Oswald;
+		font-weight: bolder;
+		text-shadow: -4px 0 #eedf5b;
+		color: #b95c77;
+		padding: 1rem;
+	}
 
-  .form-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 20px;
-    margin-right: 0px;
-  }
-  .contact-text {
-    line-height: 1.5;
-    text-align: center;
-  }
+	.form-container {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding-top: 20px;
+		margin-right: 0px;
+	}
+	.contact-text {
+		line-height: 1.5;
+		text-align: center;
+	}
 
-  input {
-    display: flex;
-    justify-content: center;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    justify-items: center;
-    padding: 16px;
-    font-size: 1rem;
-    text-align: left;
-    width: 300px;
-    height: 1em;
+	input {
+		display: flex;
+		justify-content: center;
+		font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+			Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+		justify-items: center;
+		padding: 16px;
+		font-size: 1rem;
+		text-align: left;
+		width: 300px;
+		height: 1em;
 
-    /*padding: 18px;
+		/*padding: 18px;
     font-size: 1rem;*/
-  }
+	}
 
-  #name,
-  #email {
-    width: 250px;
-    height: 40px;
-  }
+	#name,
+	#email {
+		width: 250px;
+		height: 40px;
+	}
 
-  #message {
-    width: 250px;
-    height: 100px;
-  }
+	#message {
+		width: 250px;
+		height: 100px;
+	}
 }
